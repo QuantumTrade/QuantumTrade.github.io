@@ -1,17 +1,17 @@
-const express = require("express");
-const app = express();
+// const express = require("express");
+// const app = express();
 
-app.use(express.json()); // parse incoming requests as JSON
+// app.use(express.json()); // parse incoming requests as JSON
 
-app.post("/webhook", (req, res) => {
-  const payload = req.body; // the payload information is in the request body
-  console.log(payload); // do something with the payload information
-  res.sendStatus(200); // acknowledge receipt of the payload
-});
+// app.post("/webhook", (req, res) => {
+//   const payload = req.body; // the payload information is in the request body
+//   console.log(payload); // do something with the payload information
+//   res.sendStatus(200); // acknowledge receipt of the payload
+// });
 
-app.listen(3000, () => {
-  console.log("Webhook server listening on port 3000");
-});
+// app.listen(3000, () => {
+//   console.log("Webhook server listening on port 3000");
+// });
 
 // // Parse the TradingView webhook payload
 // const payload = JSON.parse(request.body);
