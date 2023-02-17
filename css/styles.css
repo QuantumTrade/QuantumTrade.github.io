@@ -4501,7 +4501,7 @@ img.u-pull-left {
 .s-about__screens-block {
   margin-top: var(--vspace-2);
   margin-bottom: var(--vspace-2);
-  padding-bottom: 50%;
+  /* padding-bottom: 50%; */
 }
 
 .s-about__screens {
@@ -4533,4 +4533,9 @@ img.u-pull-left {
 .s-about__screen:nth-child(3) {
   top: 0;
   right: 0;
+}
+
+.profits {
+  padding-top: 50%;
+  width: 80%;
 }
