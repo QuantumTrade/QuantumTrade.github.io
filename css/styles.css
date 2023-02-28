@@ -4536,6 +4536,8 @@ img.u-pull-left {
 }
 
 .profits {
-  padding-top: 50%;
+  display: block;
+  padding-top: 90%;
   width: 80%;
+  background-color: white;
 }
