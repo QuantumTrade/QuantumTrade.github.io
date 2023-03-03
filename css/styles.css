@@ -4541,3 +4541,23 @@ img.u-pull-left {
   width: 100%;
   /* background-color: white; */
 }
+
+.tv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 2000px;
+}
+
+.transparent-card {
+  width: 100%;
+
+  box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+
+  backdrop-filter: blur(14px);
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
