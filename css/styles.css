@@ -4584,3 +4584,16 @@ img.u-pull-left {
   left: auto;
   right: auto;
 }
+
+.video-mix {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.space {
+  /* background-image: url("/images/hero-bg.jpg"); */
+  background-image: url("/images/newbg.jpg");
+  background-position: 0%;
+  background-size: cover;
+}
