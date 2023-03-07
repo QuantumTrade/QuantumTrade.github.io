@@ -4597,3 +4597,9 @@ img.u-pull-left {
   background-position: 0%;
   background-size: cover;
 }
+
+.winning {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
